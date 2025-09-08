@@ -1,0 +1,7 @@
+# Ignore Power BI project file
+*.pbix
+
+# Ignore temporary files
+*.tmp
+*.bak
+~*
