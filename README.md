@@ -205,7 +205,7 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 - Values update dynamically when the Type slicer is used
 
-- ------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 ## 7) Visuals Preview
 
@@ -231,33 +231,34 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 ![Avg Attack by Gen](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/REPORT%20VIEW/Average%20Attack%20and%20CountPokemon%20by%20GenerationName.png)
 
-<br>
-<br>
+-------------------------------------------------------------------------
 
-**KPI – AvgAttack**
+### KPIs CARDS
 
-![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/AvgAttack.png)
-
-<br>
-
-**KPI – CountPokemon**
+**Count of Pokemon**
 
 ![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/CountPokemon.png)
 
 <br>
 
-**KPI – TotalAttack**
+**Average Attack**
 
-![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/TotalAttack.png)
-
-<br>
-
-**KPI – CountDualType**
-
-![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/CountDualType.png)
+![AvgAttack](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/AvgAttack.png)
 
 <br>
 
-**KPI – PctDualType**
+**Total Attack**
 
-![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PctDualType.png)
+![TotalAttack](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/TotalAttack.png)
+
+<br>
+
+**Dual - Type Count**
+
+![CountDualType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/CountDualType.png)
+
+<br>
+
+**% of Dual - Type**
+
+![PctDualType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PctDualType.png)
