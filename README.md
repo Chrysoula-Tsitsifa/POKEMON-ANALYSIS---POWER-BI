@@ -209,8 +209,7 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 ## 7) Visuals Preview
 
-*Full List*
-![Full List](screenshots/full_list.png)
+*Full List* : ![Full List](screenshots/full_list.png)
 
 *Top 20 Strongest*
 ![Top 20 Pokémon](screenshots/top20.png)
@@ -220,5 +219,26 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 *KPIs*
 ![KPIs](screenshots/kpis.png)
+
+
+## 7) Visuals Preview
+
+**Slicer (Pokémon Types)**  
+![Slicer](screenshots/Slicer.png)
+
+**Table – Full List (Total Attack per Pokémon)**  
+![Full List](screenshots/FullList.png)
+
+**Table – Top 20 Strongest Pokémon**  
+![Top 20](screenshots/Top20.png)
+
+**Bar Chart – Average Attack & Count by Generation**  
+![Avg Attack by Gen](screenshots/AvgAttackByGen.png)
+
+**KPI Cards**  
+![KPIs](screenshots/KPIs.png)
+
+
+
 
 
