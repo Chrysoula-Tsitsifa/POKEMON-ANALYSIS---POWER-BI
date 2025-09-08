@@ -1,6 +1,5 @@
 Power BI project covering full workflow: data cleaning (renaming, helper fields, surrogate keys), modeling (star schema + bridge for dual types), DAX KPIs (count, averages, % dual, Top 20 ranking), and visuals (slicers, KPI cards, tables, Top 20, avg attack by generation). Shows advanced BI skills & best practices.
-1:53 μ.μ.
-Στείλατε
+
 # Ignore Power BI project file
 *.pbix
 
@@ -8,10 +7,6 @@ Power BI project covering full workflow: data cleaning (renaming, helper fields,
 *.tmp
 *.bak
 ~*
-Στείλατε
-MIT License
-
-Copyright (c) 2025 Soula
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
