@@ -170,3 +170,21 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 - PctDualType = 51.8% (414 από 800)
 
 - Values update dynamically when the Type slicer is used
+
+- ------------------------------------------------------------------------
+
+## 7) Visuals Preview
+
+*Full List*
+![Full List](screenshots/full_list.png)
+
+*Top 20 Strongest*
+![Top 20 Pokémon](screenshots/top20.png)
+
+*Average Attack by Generation*
+![Avg Attack by Generation](screenshots/avg_attack_gen.png)
+
+*KPIs*
+![KPIs](screenshots/kpis.png)
+
+
