@@ -32,6 +32,12 @@ Original dataset from [Kaggle : Pokémon with stats Dataset](https://www.kaggle.
 
 ------------------------------------------------------------------------
 
+## Full Power BI Report
+
+👉 [Download Pokemon Analytics.pbix](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/Pokemon%20Analytics.pbix)
+
+------------------------------------------------------------------------
+
 ## 1) Data & Tables
 
 **FactPokemon**
