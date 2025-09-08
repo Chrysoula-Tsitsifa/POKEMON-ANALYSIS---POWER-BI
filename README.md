@@ -1,6 +1,34 @@
-## POKEMON ANALYTICS
+# POKEMON ANALYTICS
+
+This project demonstrates the full Power BI workflow :
+
+- **Data cleaning & transformation** in Power Query  
+- **Data modeling** with star schema (including bridge table for dual types)  
+- **DAX measures** for KPIs and advanced calculations  
+- **Interactive dashboards** with tables, slicers, cards, and charts  
+
+It showcases both **high-level insights** (KPIs, averages, Top 20 strongest Pokémon) and **detailed exploration** (full dataset filtering by type and generation).
+
+<br>
 
 Workflow : **Cleaning** → **Modeling** → **DAX** → **Visuals**
+
+------------------------------------------------------------------------
+
+## Dataset
+
+Original dataset from [Kaggle : Pokémon with stats Dataset](https://www.kaggle.com/datasets/abcsds/pokemon)
+
+
+- Raw data stored in : [pokemon.csv](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/DATA/RAW_DATA/Pokemon.csv)
+
+
+- Transformed into BI - ready schema :
+
+  - [FactPokemon.csv](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/DATA/PROCESSED_DATA/FactPokemon.csv)
+  - [DimType.csv](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/DATA/PROCESSED_DATA/DimType.csv)
+  - [DimGeneration.csv](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/DATA/PROCESSED_DATA/DimGeneration.csv)
+  - [BridgePokemonType.csv](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/DATA/PROCESSED_DATA/BridgePokemonType.csv)
 
 ------------------------------------------------------------------------
 
