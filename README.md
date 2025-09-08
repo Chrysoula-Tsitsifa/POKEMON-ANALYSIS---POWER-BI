@@ -209,34 +209,49 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 ## 7) Visuals Preview
 
-*Full List* : ![Full List](screenshots/full_list.png)
+**Slicer (Pokémon Types)**
 
-*Top 20 Strongest*
-![Top 20 Pokémon](screenshots/top20.png)
+![Slicer](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/REPORT%20VIEW/Slicer.png)
 
-*Average Attack by Generation*
-![Avg Attack by Generation](screenshots/avg_attack_gen.png)
+<br>
 
-*KPIs*
-![KPIs](screenshots/kpis.png)
+**Table – Total Attack per Pokémon**
 
+![Full List](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/REPORT%20VIEW/Total%20Attack%20per%20Pokemon.png)
 
-## 7) Visuals Preview
+<br>
 
-**Slicer (Pokémon Types)**  
-![Slicer](screenshots/Slicer.png)
+**Table – Total Attack per Pokémon (Top 20 Strongest)**
 
-**Table – Full List (Total Attack per Pokémon)**  
-![Full List](screenshots/FullList.png)
+![Top 20](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/REPORT%20VIEW/Total%20Attack%20per%20Pokemon%20(Top%2020%20Strongest).png)
 
-**Table – Top 20 Strongest Pokémon**  
-![Top 20](screenshots/Top20.png)
+<br>
 
-**Bar Chart – Average Attack & Count by Generation**  
-![Avg Attack by Gen](screenshots/AvgAttackByGen.png)
+**Bar Chart – Average of Attack & CountPokemon by GenerationName**
 
-**KPI Cards**  
-![KPIs](screenshots/KPIs.png)
+![Avg Attack by Gen](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/REPORT%20VIEW/Average%20Attack%20and%20CountPokemon%20by%20GenerationName.png)
+
+<br>
+
+**KPI Cards**
+
+![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/AvgAttack.png)
+
+<br>
+
+![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/CountDualType.png)
+
+<br>
+
+![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/CountPokemon.png)
+
+<br>
+
+![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PctDualType.png)
+
+<br>
+
+![KPIs](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/TotalAttack.png)
 
 
 
