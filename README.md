@@ -262,3 +262,70 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 **% of Dual - Type**
 
 ![PercentancetDualType.png](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PercentancetDualType.png)
+
+-------------------------------------------------------------------------
+
+## 8) Data Modeling & Power Query (Behind the Scenes)
+
+To build this report the dataset was fully cleaned and modeled in Power BI.
+
+### Cleaning (Power Query)
+
+- Column renaming, data type fixes  
+- Added helper columns (BaseName, IsDualType, SurrogatePokemonID)  
+- Created Dim tables and Bridge table  
+
+![FactPokemon](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/CLEANING/FactPokemon.png)
+
+<br>
+
+![DimType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/CLEANING/DimType.png)
+
+<br>
+
+![DimGeneration](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/CLEANING/DimGeneration.png)
+
+<br>
+
+![Stg_BridgeSource](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/CLEANING/Stg_BridgeSource.png)
+
+<br>
+
+![BridgePokemonType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/CLEANING/BridgePokemonType.png)
+
+<br>
+
+### Relationship Modeling (Star Schema)
+
+The model ensures correct filtering between Pokémon, Types, and Generations.  
+
+![DimType[TypeID] (1) → (∞) BridgePokemonType[TypeID]](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MODEL%20VIEW/DimType%5BTypeID%5D%20(1)%20%E2%86%92%20(%E2%88%9E)%20BridgePokemonType%5BTypeID%5D.png)
+
+<br>
+
+![DimGeneration[Generation] (1) → (∞) FactPokemon[Generation]](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MODEL%20VIEW/DimGeneration%5BGeneration%5D%20(1)%20%E2%86%92%20(%E2%88%9E)%20FactPokemon%5BGeneration%5D.png)
+
+<br>
+
+![FactPokemon[SurrogatePokemonID] (1) → (∞) BridgePokemonType[SurrogatePokemonID]](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MODEL%20VIEW/FactPokemon%5BSurrogatePokemonID%5D%20(1)%20%E2%86%92%20(%E2%88%9E)%20BridgePokemonType%5BSurrogatePokemonID%5D.png)
+
+<br>
+
+### Table View
+
+For data validation and exploration.  
+
+![BridgePokemonType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/TABLE%20VIEW/BridgePokemonType.png)
+
+<br>
+
+![DimGeneration](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/TABLE%20VIEW/DimGeneration.png)
+
+<br>
+
+![DimType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/TABLE%20VIEW/DimType.png)
+
+<br>
+
+![FactPokemon](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/TABLE%20VIEW/FactPokemon.png)
+
