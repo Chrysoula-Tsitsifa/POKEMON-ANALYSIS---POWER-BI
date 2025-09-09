@@ -261,4 +261,4 @@ PctDualType = DIVIDE([CountDualType], [CountPokemon])
 
 **% of Dual - Type**
 
-![PctDualType](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PctDualType.png)
+![PercentancetDualType.png](https://github.com/Chrysoula-Tsitsifa/POKEMON-ANALYSIS---POWER-BI/blob/main/SCREENSHOTS/MEASURES/PercentancetDualType.png)
